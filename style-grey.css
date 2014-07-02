@@ -109,26 +109,27 @@ div.content {
 
 /* Some pages have section dividers */
 div.section {
-  margin-bottom: 0px;
-  margin-top: 1em;
-  padding: 1px 1px 1px 1px;
+  margin: .5em 0 .2em;
+  padding: 1px 7px;
   font-size: 1.2em;
   font-weight: bold;
-  background-color: #558195;
-  color: white;
+  background-color: #eee;
+  border-top: 1px dotted #aaa;
   white-space: nowrap;
 }
 
 /* The "Date" that occurs on the left hand side of timelines */
 div.divider {
-  background: #a1c4d4;
-  border: 2px #558195 solid;
-  font-size: 1em; font-weight: normal;
-  padding: .25em;
+  font-size: 1em;
   margin: .2em 0 .2em 0;
-  float: left;
-  clear: left;
   white-space: nowrap;
+  background: #eee;
+  border: none;
+  border-top: 1px #aaa solid;
+  padding: .1em .5em;
+  font-weight: bold;
+  color: #555;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 /* The footer at the very bottom of the page */
@@ -168,7 +169,7 @@ table {
 }
 
 #timelineTable {
-  max-width:100%;
+	max-width:100%;
 }
 
 a.timelineHistLink {
@@ -183,16 +184,6 @@ tr.timelineCurrent td.timelineTableCell {
   background: #FFA;
   border-top: 1px dotted #FF6666;
   color: #990000;
-}
-
-div.divider {
-  background: #eee;
-  border: none;
-  border-top: 1px #aaa solid;
-  padding: .1em .5em;
-  font-weight: bold;
-  color: #555;
-  text-shadow: 1px 1px 1px #fff;
 }
 
 td.timelineTime {
