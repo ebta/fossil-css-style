@@ -167,6 +167,10 @@ table {
   border-spacing:0;
 }
 
+#timelineTable {
+	width:100%;
+}
+
 a.timelineHistLink {
   font-family: Consolas,monospace;
   font-size: 14px;
